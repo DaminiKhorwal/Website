@@ -1,0 +1,17 @@
+ebooks/*
+www/ebooks/*/
+www/images/covers/*
+www/feeds/opds/*.xml
+www/feeds/opds/*/*.xml
+www/feeds/rss/*.xml
+www/feeds/rss/*/*.xml
+www/feeds/atom/*.xml
+www/feeds/atom/*/*.xml
+vendor/
+.vagrant/
+*.log
+www/manual/*
+!www/manual/index.php
+config/apache/htpasswd-standardebooks.org
+config/php/fpm/standardebooks.org-secrets.ini
+www/bulk-downloads/*/
