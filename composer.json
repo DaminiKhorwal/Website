@@ -1,0 +1,35 @@
+{
+	"license": "CC0-1.0",
+	"platform":{
+		"php": "8.1.2"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"": "lib/"
+		},
+		"files": [
+			"lib/Constants.php"
+		]
+	},
+	"autoload": {
+		"classmap": [
+			"lib/"
+		],
+		"files": [
+			"lib/Constants.php"
+		]
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^1.11.1",
+		"thecodingmachine/phpstan-safe-rule": "^1.2.0"
+	},
+	"require": {
+		"thecodingmachine/safe": "^2.5.0",
+		"phpmailer/phpmailer": "^6.6.0",
+		"ramsey/uuid": "^4.7.6",
+		"gregwar/captcha": "^1.2.0",
+		"php-webdriver/webdriver": "^1.15.1",
+		"pear/http2": "^2.0.0",
+		"erusev/parsedown": "^1.7.4"
+	}
+}
